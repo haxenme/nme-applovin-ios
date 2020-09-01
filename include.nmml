@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+   <dependency name="AppLovinSDK.framework" sourceTree="group" path="${this_dir}/" />
+   <dependency name="AdSupport.framework"  />
+   <dependency name="WebKit.framework"  />
+   <dependency name="StoreKit.framework"  />
+   <dependency name="SafariServices.framework"  />
+   <dependency name="CoreTelephony.framework"  />
+   <dependency name="SystemConfiguration.framework"  />
+
+   <buildExtra path="buildExtra.xml"  />
+
+   <error value="Please set your NME_APPLOVIN_KEY key" unless="NME_APPLOVIN_KEY" />
+   <customIOSProperty key="AppLovinSdkKey" value="${NME_APPLOVIN_KEY}"  />
+
+   <ios linker-flags="-ObjC" />
+  
+</project>

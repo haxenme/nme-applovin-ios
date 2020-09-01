@@ -1,0 +1,14 @@
+<!-- This gets injected into the haxe build phase -->
+<project>
+  <files id='nme-haxe'>
+    <compilerflag value='-F${this_dir}'/>
+    <compilerflag name='-framework' value='AppLovinSDK'/>
+  </files>
+
+  <compiler >
+    <flag value='-F${this_dir}' tag='nme-haxe' />
+    <flag value='-framework' tag='nme-haxe' />
+    <flag value='AppLovinSDK' tag='nme-haxe' />
+  </compiler>
+
+</project>
