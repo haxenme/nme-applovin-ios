@@ -1,0 +1,11 @@
+{
+  "name": "nme-applovin-ios",
+  "url": "https://github.com/haxenme",
+  "license": "MIT",
+  "tags": [ "nme", "ios", "applovin"  ],
+  "description": "NME applovin integration for iOS",
+  "version": "6.13.0",
+  "releasenote": "Initial release",
+  "contributors": [ "gamehaxe" ],
+  "dependencies": {}
+}
